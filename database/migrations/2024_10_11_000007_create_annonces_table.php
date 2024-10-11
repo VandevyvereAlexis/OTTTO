@@ -26,7 +26,7 @@ return new class extends Migration
             $table->integer('ch_din');
             $table->integer('kilometrage');
             $table->year('annee');
-            $table->date('Mise_en_circulation');
+            $table->date('mise_en_circulation');
             $table->boolean('premiere_main');
             $table->boolean('controle_technique');
             $table->enum('energie', [
