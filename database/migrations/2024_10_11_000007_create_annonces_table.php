@@ -75,7 +75,7 @@ return new class extends Migration
                 'Autre',
             ]);
             $table->enum('transmission', [
-                'Boîte_manuelle',
+                'Boite_manuelle',
                 'Boite_automatique',
                 'Autre',
             ]);
